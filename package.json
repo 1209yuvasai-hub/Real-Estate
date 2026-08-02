@@ -1,0 +1,17 @@
+{
+  "name": "real-estate-portal",
+  "version": "1.0.0",
+  "description": "Full-Stack Real Estate Portal with Listings, Filters, Contact Owner, Favorites, Admin Panel & SQLite",
+  "main": "server/index.js",
+  "scripts": {
+    "setup": "cmd /c npm --prefix server install && cmd /c npm --prefix client install",
+    "seed": "node server/seed.js",
+    "server": "node server/index.js",
+    "client": "cmd /c npm --prefix client run dev",
+    "dev": "node scripts/dev.js",
+    "package": "node scripts/create_zip.js"
+  },
+  "keywords": ["real-estate", "react", "express", "sqlite", "fullstack"],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}
